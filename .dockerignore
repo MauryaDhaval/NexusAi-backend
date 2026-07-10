@@ -1,0 +1,34 @@
+# Ignore Maven build artifacts
+target/
+build/
+*.jar
+*.war
+
+# Ignore local environment secrets
+.env
+.env.*
+application-local.properties
+
+# Ignore Git version control files
+.git
+.gitignore
+.gitattributes
+
+# Ignore IDE configurations
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Ignore local logs
+*.log
+logs/
+
+# Ignore documentation and Docker instructions
+Dockerfile
+.dockerignore
+HELP.md
+mvwn
+mvnw.cmd
+.mvn/
