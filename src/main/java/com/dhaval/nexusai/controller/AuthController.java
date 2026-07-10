@@ -21,6 +21,11 @@ import java.time.LocalDateTime;
 public class AuthController {
     private final AuthService authService;
 
+    @GetMapping("/health")
+    public ResponseEntity<String> healthCheck() {
+        return ResponseEntity.ok("OK");
+    }
+
     @PostMapping("/signUp")
     public ResponseEntity<ApiResponseDto<Void>> signUp(@Valid @RequestBody SignUpRequestDto signUpRequestDto) {
         authService.signUp(signUpRequestDto);
