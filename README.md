@@ -4,6 +4,12 @@ The high-performance Java Spring Boot backend engine powering the **Nexus AI** d
 
 ---
 
+## 🚀 Live Deployment
+
+*   **Production Console**: [https://nexusai-kryj.onrender.com/](https://nexusai-kryj.onrender.com/)
+
+---
+
 ## 🚀 Core Features & Modules
 
 ### 1. Developer JWT Authentication
